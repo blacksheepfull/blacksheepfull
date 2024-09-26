@@ -1,0 +1,43 @@
+#Precisamos imprimir um número para cada andar de um hotel de 20 andares. 
+#Porém, o dono do hotel é supersticioso e optou por não ter um 13ro andar.
+
+#Escreva um código que imprima todos os números exceto o número 13.
+#Escreva mais um código que resolva o mesmo problema, mas dessa vez usando o laço de repetição 'while'.
+
+#Como desafio, imprima eles em ordem decrescente (20, 19, 18...)
+
+
+
+#Eu dividi o problema em 3 partes. 
+#Na primeira parte do problema usei um if para rastrear o laço FOR quando a execução chegar no número 13, 
+#e a expressão CONTINUE para interromper o laço e capturar o número 13.
+for i in range(1,21):
+  if (i ==13):
+    continue
+  print(i)
+
+
+#Para resolver o mesmo problema da primeira parte, utilizei o WHILE,
+#com a diferença de que tive que colocar o incrementador manualmente na condicional IF 
+#que vai fazer com que o laço 'pule' o número que foi passado como parâmetro no IF. 
+#Também concatenei um precedente em string para acompanhar a variável I e deixar a 'saída' do código mais clara.
+print('Aqui é o térreo')
+i = 1
+while i <= 20:
+    if i == 13:
+        i= i+1
+        continue
+    print('Este andar é o de número: '+str(i))
+    i = i+1
+
+
+#Agora na terceira e última parte a resolução foi mais simples. 
+# Como toda a 'complexidade' do problema se deu nas etapas anteriores, 
+# nesta só tive que mudar a ordem dos parâmetros na palavra chave RANGE, 
+# onde 20,0,-1 quer dizer: final,inicio, e decremento.
+ #P.S: o desafio mesmo foi pensar inicialmente como resolver o problema.
+for i in range(20,0,-1):
+  if (i ==13):
+    continue
+  print('Este andar é o de número: '+str(i))
+print('Aqui é o térreo')
