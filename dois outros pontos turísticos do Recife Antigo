@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marco Zero do Recife</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #004d61;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        main {
+            padding: 20px;
+        }
+        main img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+        }
+        footer {
+            background-color: #004d61;
+            color: #fff;
+            text-align: center;
+            padding: 10px 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        a {
+            color: #004d61;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Marco Zero do Recife</h1>
+        <p><em>O coração cultural e histórico da capital pernambucana</em></p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Sobre o Marco Zero</h2>
+            <p>O <strong>Marco Zero</strong> é um dos principais <abbr title="Pontos Turísticos">PTs</abbr> do Recife, localizado no bairro do Recife Antigo. Ele marca o ponto inicial das medições geográficas da cidade e oferece uma vista deslumbrante do <a href="https://pt.wikipedia.org/wiki/Rio_Capibaribe" target="_blank">Rio Capibaribe</a>.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Marco_Zero_Recife.jpg" alt="Vista do Marco Zero do Recife">
+            <p>Além de ser um local histórico, o Marco Zero é palco de eventos culturais e possui ao seu redor atrações como o <mark>Paço do Frevo</mark> e o <mark>Cais do Sertão</mark>.</p>
+        </section>
+
+        <section>
+            <h2>Atrações Próximas</h2>
+            <ul>
+                <li>Paço do Frevo</li>
+                <li>Cais do Sertão</li>
+                <li>Feirinha de Artesanato</li>
+                <li>Ponte Maurício de Nassau</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Mais para explorar</h2>
+            <p>Quer saber mais sobre o Recife Antigo? Confira outros pontos turísticos incríveis: <a href="recife_antigo.html">Clique aqui</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Descubra Recife. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
